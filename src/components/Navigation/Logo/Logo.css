@@ -1,0 +1,60 @@
+#logo {
+    border-radius: 50%;
+    display: flex;
+
+}
+
+#logo-capital-letter {
+    color: var(--color-primary-200);
+}
+
+#divider {
+    position: relative;
+    opacity: 0;
+    font-weight: 100;
+
+    animation: non-capital-letters ease-in-out 1s forwards;
+    animation-delay:0.5s ;
+}
+
+#normal-letter {
+    opacity: 0;
+    animation: non-capital-letters ease-in-out 1s forwards;
+    animation-delay:0.5s ;
+
+}
+
+@keyframes non-capital-letters {
+    from {
+
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#aydin {
+    display: flex;
+    position: relative;
+}
+
+#consulting {
+    display: flex;
+    position: relative;
+    right: 85px;
+    animation: consulting ease-in-out 1s forwards;
+}
+
+@keyframes consulting {
+    from {
+        right: 45px;
+    }
+    to {
+        right: 0;
+    }
+}
+
+h1 {
+    margin: 0 !important;
+}

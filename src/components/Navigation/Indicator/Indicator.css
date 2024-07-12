@@ -1,0 +1,14 @@
+#indicator {
+    position: absolute;
+
+
+    left: 0;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+    background-color: transparent;
+    z-index: 100;
+    border: solid 1px white;
+    border-radius: 99px;
+    pointer-events: none;
+}
