@@ -1,0 +1,46 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-surface-200);
+    box-sizing: border-box;
+}
+
+#blur-circle {
+    border-radius: 999px;
+    position: fixed;
+    width: 835px !important;
+    height: 835px !important;
+    background-color: #f25370;
+    color: yellow;
+    top: 25vh;
+    right: -55vw;
+    filter: blur(135px) opacity(0.5);
+    box-shadow: -135px -135px 125px #f25378;
+
+
+}
+
+:root {
+    /** CSS DARK THEME PRIMARY COLORS */
+    --color-primary-100: #e81e40;
+    --color-primary-200: #ef4853;
+    --color-primary-300: #f56466;
+    --color-primary-400: #fa7d7a;
+    --color-primary-500: #fe948f;
+    --color-primary-600: #ffaaa4; /** CSS DARK THEME SURFACE COLORS */
+    --color-surface-100: #121212;
+    --color-surface-200: #282828;
+    --color-surface-300: #3f3f3f;
+    --color-surface-400: #575757;
+    --color-surface-500: #717171;
+    --color-surface-600: #8b8b8b; /** CSS DARK THEME MIXED SURFACE COLORS */
+    --color-surface-mixed-100: #772528;
+    --color-surface-mixed-200: #883d3c;
+    --color-surface-mixed-300: #985552;
+    --color-surface-mixed-400: #a86c68;
+    --color-surface-mixed-500: #b88380;
+    --color-surface-mixed-600: #c79b98; /** EXAMPLES */
+    color: var(--color-primary-600);
+    background-color: var(--color-surface-300);
+}
+
